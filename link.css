@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	width: 100%;
+	position: absolute;
+	left: 33rem;
+	top: 0.5rem;
+}
+
+.comp-name{
+	position: relative;
+	top: -3rem;
+	left: 7rem;
+	font-weight: 500;
+	font-family: Calibri;
+	font-size: 20px;
+	color: #ff5e08;
+
+}
+
+.nav{
+	align-items: center;
+	background-color: #eb4002;
+	text-align: center;	
+	width: 60rem;
+	position: relative;
+	left: 12rem;
+	border-radius: 25px;
+	top: 5rem;
+    
+
+}
+
+
+.nav-item{
+    display: inline-block;
+    margin-left: 30px;
+    padding:14px;
+    padding-left: 0;
+    max-width: 10rem;
+    max-height: 2rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-family: Calibri;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.gmail{
+	max-height: 3rem;
+	max-width: 3rem;
+	float: left;
+	position: relative;
+	left:73rem;
+	top: 2.8rem;
+}
+
+.gmail img{
+	height: 30px;
+	width: 40px;
+}
+
+
+.pic-1, .pic-2, .pic-3{
+	height:420px;
+	width:235px;
+	position: absolute;
+	top: 11.8rem;
+	left: 16.3rem;
+	height: 300px;
+	width: 300px;
+    border-radius: 200px;
+
+}
+
+.pic-1{
+	
+
+	animation-name: "image1";
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+
+    
+	
+	
+}
+
+
+.pic-2{
+	
+	
+
+	animation-name: "image2";
+	animation-duration:20s;
+	animation-iteration-count: infinite;
+	
+
+
+}
+
+
+
+.pic-3{
+	
+	
+
+	animation-name: "image3";
+	animation-duration:20s;
+	animation-iteration-count: infinite;
+	
+}
+
+
+
+.actual{
+	position: relative;
+	top: 15rem;
+	left: 15rem;
+	font-family: Calibri;
+	font-size: 20px;
+	font-weight: bold;
+	color: #a69e9c;
+
+}
+
+
+
+
+
+
+
+@keyframes image1{
+
+	0%{
+		opacity: 0;
+		
+
+	}
+	25%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+        opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+
+}
+
+
+@keyframes image2{
+
+	0%{
+		opacity: 0;
+
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	75%{
+        opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+
+
+@keyframes image3{
+   
+    0%{
+		opacity: 0;
+
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+        opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+
+
+
+.aside{
+	position: relative;
+	top: 7rem;
+	left:45rem;
+	margin: 0;
+	padding: 0; 
+}
+
+
+
+
+.add1{
+    position: relative;
+    top: 10rem;
+    left: 13rem;
+    width: 20rem;
+    float: left;
+}
+
+
+.add2{
+    position: relative;
+    float: left;
+    left: 30rem;
+    top: 10rem;
+    width: 20rem;
+}
+
+.h1{
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 30px;
+    color: #a69e9c;
+}
+
+
+.add1 p, .add2 p{
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: 300;
+
+}
+
+.contact-head{
+	position: relative;
+	top: 8rem;
+	left: 10rem;
+	font-family: Calibri;
+	font-size: 30px;
+	font-weight: 400;
+	
+}
+
+
+
+.construction{
+	font-family: Calibri;
+	position: relative;
+	top: 10rem;
+	max-width: 40rem;
+	margin-left: 48rem;
+}
+
+.praman{
+	position: relative;
+	top: 9rem;
+	left: 45rem;
+}
